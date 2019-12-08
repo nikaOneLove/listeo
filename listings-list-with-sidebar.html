@@ -219,8 +219,8 @@
 					<!-- Sort by -->
 					<div class="sort-by">
 						<div class="sort-by-select">
-							<select data-placeholder="Default order" class="chosen-select-no-single">
-								<option>Default Order</option>
+							<select data-placeholder="По умолчанию" class="chosen-select-no-single">
+								<option>По умолчанию</option>
 								<option>Highest Rated</option>
 								<option>Most Reviewed</option>
 								<option>Newest Listings</option>
@@ -450,24 +450,39 @@
 
 				<!-- Widget -->
 				<div class="widget margin-bottom-40">
-					<h3 class="margin-top-0 margin-bottom-30">Filters</h3>
+					<h3 class="margin-top-0 margin-bottom-30">Фильтры</h3>
 
 					<!-- Row -->
 					<div class="row with-forms">
 						<!-- Cities -->
 						<div class="col-md-12">
-							<input type="text" placeholder="What are you looking for?" value=""/>
+							<input type="text" placeholder="Что вы хотите найти?" value=""/>
 						</div>
 					</div>
 					<!-- Row / End -->
-
 
 					<!-- Row -->
 					<div class="row with-forms">
 						<!-- Type -->
 						<div class="col-md-12">
-							<select data-placeholder="All Categories" class="chosen-select" >
-								<option>All Categories</option>	
+							<select data-placeholder="Все типы событий" class="chosen-select" >
+								<option>Все типы событий</option>
+								<option>Shops</option>
+								<option>Hotels</option>
+								<option>Restaurants</option>
+								<option>Fitness</option>
+								<option>Events</option>
+							</select>
+						</div>
+					</div>
+					<!-- Row / End -->
+
+					<!-- Row -->
+					<div class="row with-forms">
+						<!-- Type -->
+						<div class="col-md-12">
+							<select data-placeholder="Все категории" class="chosen-select" >
+								<option>Все категории</option>
 								<option>Shops</option>
 								<option>Hotels</option>
 								<option>Restaurants</option>
@@ -486,7 +501,7 @@
 
 							<div class="input-with-icon location">
 								<div id="autocomplete-container">
-									<input id="autocomplete-input" type="text" placeholder="Location">
+									<input id="autocomplete-input" type="text" placeholder="Город">
 								</div>
 								<a href="listings-list-with-sidebar.html#"><i class="fa fa-map-marker"></i></a>
 							</div>
@@ -496,14 +511,10 @@
 					<!-- Row / End -->
 					<br>
 
-					<!-- Area Range -->
-					<div class="range-slider">
-						<input class="distance-radius" type="range" min="1" max="100" step="1" value="50" data-title="Radius around selected destination">
-					</div>
 
 
 					<!-- More Search Options -->
-					<a href="listings-list-with-sidebar.html#" class="more-search-options-trigger margin-bottom-5 margin-top-20" data-open-title="More Filters" data-close-title="More Filters"></a>
+					<a href="listings-list-with-sidebar.html#" class="more-search-options-trigger margin-bottom-5 margin-top-20" data-open-title="Больше фильтров" data-close-title="Больше фильтров"></a>
 
 					<div class="more-search-options relative">
 
@@ -539,9 +550,6 @@
 
 					</div>
 					<!-- More Search Options / End -->
-
-					<button class="button fullwidth margin-top-25">Update</button>
-
 				</div>
 				<!-- Widget / End -->
 
