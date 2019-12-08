@@ -4,6 +4,7 @@
 @import "plugins/revolutionslider.css";
 @import 'https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:500,600,700';
+@import 'some-styles.css';
 
 input, input[type=text], input[type=password], input[type=email], input[type=number], textarea, select {
     height: 51px;
