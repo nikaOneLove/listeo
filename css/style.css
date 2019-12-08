@@ -20060,3 +20060,9 @@ div.layout-style {
 #style-switcher {
     display: none
 }
+
+.main-icon {
+    height: 38px;
+    width: 38px;
+    margin: 10px auto;
+}
