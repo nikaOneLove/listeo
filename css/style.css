@@ -6597,6 +6597,11 @@ a.send-message-to-owner.button {
     font-weight: 400
 }
 
+.opening-hours h3 i {
+    color: #f91942;
+    margin-right: 10px;
+}
+
 .listing-share {
     text-align: center;
     position: relative
